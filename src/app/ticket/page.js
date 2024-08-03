@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import { FaCube, FaEnvelope, FaHome, FaMailBulk, FaPhone, FaTrademark } from 'react-icons/fa';
@@ -42,12 +43,6 @@ function page() {
             </div>
             <button className='on-btn bg-[white] text-black'>ON THE WAY</button>
           </div>
-
-          {/* <div className="range">
-            <p>81%</p>
-            <div></div>
-          </div> */}
-
           <div className='flex text-[13px] justify-between'>
             <div>
               <p>Customer</p>
@@ -85,7 +80,7 @@ function page() {
 
             </div>
         </div>
-        <div className='px-6 flex'>
+        {/* <div className='px-6 flex'>
           <div className='h-[100] bg-white w-[2px] mt-[3%]'>
            
           </div>
@@ -131,7 +126,7 @@ function page() {
             </li>
           </ul>
 
-        </div>
+        </div> */}
 
       </section>
 
