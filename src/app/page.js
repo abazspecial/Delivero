@@ -20,6 +20,8 @@ export default function Home() {
         </ul>
         <button className="contact"> Contact Us</button>
       </nav>
+
+      
       <section className="welcome h-[570px] w-[100%] bg-[#f2f2ff] p-[7%] flex items-center">
         <div className="w-[60%] flex flex-col">
           <h1 className="text-[45px] font-semibold">Smart Shipping that grows your Business</h1>
@@ -30,6 +32,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
       <section className="h-[560px] w-[100%] flex px-[7%] py-14 justify-between">
         <div className="w-[48%]">
           <h1 className="text-[30px] font-bold">Fully integrated with 10 Buy Shipping tools</h1>
@@ -61,14 +65,16 @@ export default function Home() {
         </div>
       </section>
       <hr />
-      <section className="py-9">
+
+      <section className="py-14">
         <div className="my-14 flex justify-between px-[7%] ">
           <h1 className="text-[30px] w-[48%">Get immediate discounted rates with all four major carrier </h1>
           <p className="w-[45%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, cum perspiciatis. Quaerat vero ex, doloribus odit praesentium explicabo, quis ipsum ea pariatur quo harum assumenda recusandae. Fugiat distinctio quasi a.</p>
-       
         </div>
         <img src="./gastronomy-expert-cooking-succulent-beef-patty-hot-pan-while-cooking-gourmet-dish-dinner-service-restaurant-food-industry-worker-preparing-meat-meal-professional-kitchen.jpg" alt="" className="my-image"/>
       </section>
+
+      {/* Footer  */}
       <footer>
         <div className="w-[35%]">
           <h1>DELIVERO</h1>

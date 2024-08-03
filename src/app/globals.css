@@ -55,5 +55,101 @@ footer{
   background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
-  padding: 5% 8%;
+  padding: 7% 8%;
+}
+.map-img{
+  height: 100vh;
+  width: 100%;
+}
+.map-order{
+  height: 150px;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  bottom: 6%;
+  border-radius: 20px;
+}
+.package{
+  color: white;
+}
+.package h1{
+  font-size: larger;
+}
+.package h4, .package h1{
+  font-weight: 600;
+}
+.on-btn{
+  padding: 2%;
+  height: 30px;
+  font-size: 13px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.re-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+}
+.down-foot h1{
+  font-weight: 600;
+  font-size: 18px;
+}
+.down-foot p{
+  font-size: 17px;
+}
+.list-del{
+  list-style-type: circle;
+  
+}
+.list-del li{
+  margin-top: 3%;
+}
+.dash-nav{
+  @apply mt-5
+}
+.dash-nav a{
+  @apply flex text-[19px] font-semibold items-center
+}
+.dash-nav span{
+  @apply w-[30px] h-[30px] bg-[#ffffff] rounded flex items-center justify-center mr-2
+}
+.settings{
+  @apply flex text-[19px] font-semibold items-center mt-3
+}
+.search-dash{
+  border: 1px solid black;
+}
+.search-icon{
+  border: 1px solid black;
+  @apply h-[50px] w-[50px] mr-1 flex items-center justify-center rounded-[100%]
+}
+.perm-btn{
+  @apply mt-5 flex gap-2
+}
+.perm-btn button{
+  border-radius: 10px;
+  padding: 1% 2%;
+  background-color: rgb(242, 242, 242);
+}
+.btn-sort button{
+  padding: 1% 13%;
+  border: 1px solid black;
+  @apply flex items-center rounded-lg justify-center
+}
+.tab-row{
+  width: 16%;
+   @apply p-3 flex items-center
+
+}
+.tab-row span{
+  @apply mr-1
+}
+.person-img{
+  @apply h-[30px] mr-1
+}
+.over-aut{
+  overflow-y: auto;
 }
