@@ -15,7 +15,7 @@ nav{
   margin-right: 2%;
   border-radius: 10px;
   border: 2px solid rgb(0, 0, 42);
-  @apply  p-2 px-4
+  @apply  p-1 px-3 md:p-2 md:px-4 text-[13px]
 }
 .contact{
   background-color: rgb(0, 0, 42);
@@ -51,10 +51,12 @@ nav{
   border-radius: 10px;
 }
 footer{
-  height: 300px;
   background-color: whitesmoke;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  gap: 5%;
+  grid-template-columns: 50% 20% 20%;
+  /* justify-content: space-between; */
+
   padding: 7% 8%;
 }
 .map-img{
@@ -152,4 +154,38 @@ footer{
 }
 .over-aut{
   overflow-y: auto;
+}
+.openn{
+  display: none;
+  @apply  flex-col absolute top-[60px] bg-white p-3 right-2 gap-6 
+}
+.notop{
+  @apply  flex-col absolute top-[60px] bg-white p-3 right-2 gap-6 
+}
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width:770px) {
+  footer{
+    gap: 13%;
+    grid-template-columns: 60% 20%;
+    padding: 9% 8%;
+  }
+
+}
+
+@media only screen and (max-width:631px) {
+  footer{
+    gap: 13%;
+    grid-template-columns: 100%;
+    padding: 9% 8%;
+    height: 650px;
+  }
 }
