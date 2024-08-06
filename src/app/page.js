@@ -1,8 +1,8 @@
 'use client'
 import Link from "next/link";
 import { useState } from "react";
-import {FaShieldAlt} from "react-icons/fa"
-import {TfiMenu} from "react-icons/tfi"
+import {FaShieldAlt, FaXRay} from "react-icons/fa"
+import {TfiMenu, TfiClose} from "react-icons/tfi"
  
 export default function Home() {
   const [open, isOpen] = useState(false)
@@ -32,10 +32,22 @@ export default function Home() {
          
       </nav>
 
-      <div  className=" md:hidden bg-white flex justify-between px-[7%] items-center w-[100%] h-[60px]">
+      <div  className="fixed md:hidden bg-white flex justify-between px-[7%] items-center w-[100%] h-[60px]">
         <h1>Delivro</h1>
-        <div className=""  onClick><TfiMenu /></div>
-          <ul className={isOpen ? "openn" : "" }>
+        <button className="bg-[whitesmoke] p-2 transition-all" onClick={() => isClick(!click)}>
+          {click ? (
+            <TfiClose />
+        
+          ) : (    
+          <TfiMenu />
+            
+          )
+          
+          }
+          
+          </button>
+
+          <ul className={click ? "p-9 flex-col absolute top-[60px] bg-white right-2 gap-6 " : "hidden" }>
             <li>
               <Link href="/">Features</Link>
             </li>
