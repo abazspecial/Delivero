@@ -82,8 +82,8 @@ footer{
 }
 .on-btn{
   padding: 2%;
-  height: 30px;
-  font-size: 13px;
+  height: 10%;
+  font-size: 10px;
   border-radius: 10px;
   font-weight: 600;
 }
@@ -91,16 +91,16 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   border-radius: 100%;
 }
 .down-foot h1{
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
 }
 .down-foot p{
-  font-size: 17px;
+  font-size: 13px;
 }
 .list-del{
   list-style-type: circle;
