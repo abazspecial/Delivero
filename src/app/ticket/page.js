@@ -145,12 +145,14 @@ function page() {
 
 
 {/* CheckOut */}
-    <div className='flex'>
+    <div className='flex p-4'>
+      
 
-      <div>
+      <div className=''></div>
+      <div className='bg-white w-1 mr-9 flex items-center justify-center flex-col' >
         {[...Array(location.length)].map(star =>{
           return(
-            <div  className='h-[30px] w-[30px] mb-5 flex justify-center p-1 items-center rounded-[100%] bg-[red]'>
+            <div  className=' h-[40px] w-[40px] mb-4 flex justify-center p-1 items-center rounded-[100%] bg-[red]'>
               <FaCheck /> 
             </div>
           )
@@ -161,7 +163,7 @@ function page() {
 
         {location.map(fix =>{
           return(
-            <div  className='w-[100%] h-[30px] mb-5 p-1 items-center'>
+            <div  className='w-[100%] h-[40px] mb-4 p-1 items-center'>
               <p>{fix.place}</p>
             </div>
           )
